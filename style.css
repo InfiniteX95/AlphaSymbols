@@ -1,0 +1,66 @@
+head {
+
+}
+
+body {
+	background-color:#282f38;
+}
+
+//table, th, td {
+//    border: 1px solid red;
+//}
+
+.tab-kb { margin:auto; border:0; }
+.tab-kb tr { vertical-align: top; text-align:center; }
+
+.bt, .bt:hover, .bt:visited {text-decoration:none; cursor:pointer; width:26pt; font-size:18pt; color:#CC0033; font-family:Arial;}
+
+.cadr { width:80%; color:#0000FF; font-family:Arial; font-size:20pt; padding:5px;}
+
+.spacebt, .spacebt:hover, .spacebt:visited {
+	font-size:18pt;
+}
+
+.letter {
+	font-size:16pt; color:red; font-family:Times New Roman;
+}
+
+.websitename {
+color:red;
+}
+
+.btn {
+	display: inline-block;
+	width:26pt;
+	padding: 5px 10px;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #e22626;
+	background-color: #1c2128;
+	border: none;
+	box-shadow: 0 4px #1c2128;
+	transition: 0.4s;
+	font-family:Arial;
+}
+
+.btn:hover {box-shadow: 0 4px #5a92ed;}
+
+.bf {
+	display: inline-block;
+	padding: 5px 15px;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #64b448;
+	background-color: #1c2128;
+	border: none;
+	box-shadow: 0 4px #1c2128;
+	transition: 0.4s;
+}
+
+.bf:hover {box-shadow: 0 4px #5a92ed;}
