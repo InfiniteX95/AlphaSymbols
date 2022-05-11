@@ -1,14 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
 head {
 
 }
 
 body {
-	background-color:#282f38;
+	background-color:#202124;
 }
 
-//table, th, td {
-//    border: 1px solid red;
-//}
+hr {
+	color: grey;
+	margin: 30px -5px 5px;
+  border: 0;
+  border-top: 1px solid;
+}
+
+.grid-list{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	margin: 35px;
+}
+
+.grid-list div{
+	border: 1px solid #5f6368;
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+}
+
+.field{
+	font-size: 40px;
+	width: 90%;
+	color: #fff;
+	padding: 10px;
+	background-color: #303134;
+	border: 2px solid grey;
+	border-radius: 5px;
+	outline: none;
+}
+
+.field:focus{
+	border-color: #8ab4f8;
+}
+
+.input{
+  font-size: 50px;
+  size:100%;
+  overflow-wrap: break-word;
+  padding: 2px;
+	text-align: center;
+}
 
 .tab-kb { margin:auto; border:0; }
 .tab-kb tr { vertical-align: top; text-align:center; }
@@ -22,31 +69,30 @@ body {
 }
 
 .letter {
-	font-size:16pt; color:red; font-family:Times New Roman;
+	font-size:16pt; color:red; font-family:"Times New Roman";
 }
 
 .websitename {
-color:red;
+	color:red;
 }
 
-.btn {
-	display: inline-block;
-	width:26pt;
-	padding: 5px 10px;
+.btn{
+	width: 35px;
+	padding: 5px;
 	font-size: 18px;
+	color: #202124;
 	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
-	outline: none;
-	color: #e22626;
-	background-color: #1c2128;
+	background-color: #8ab4f8;
 	border: none;
-	box-shadow: 0 4px #1c2128;
+	border-radius: 5px;
+	margin-bottom: 2px;
 	transition: 0.4s;
-	font-family:Arial;
+	outline: none;
 }
 
-.btn:hover {box-shadow: 0 4px #5a92ed;}
+.btn:hover {
+	opacity: 0.75;
+}
 
 .bf {
 	display: inline-block;
